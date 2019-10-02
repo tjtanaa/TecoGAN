@@ -65,7 +65,7 @@ Flags.DEFINE_integer('RNN_N', 10, 'The number of the rnn recurrent length')
 Flags.DEFINE_integer('batch_size', 4, 'Batch size of the input batch')
 Flags.DEFINE_boolean('flip', True, 'Whether random flip data augmentation is applied')
 Flags.DEFINE_boolean('random_crop', True, 'Whether perform the random crop')
-Flags.DEFINE_boolean('movingFirstFrame', True, 'Whether use constant moving first frame randomly.')
+Flags.DEFINE_boolean('movingFirstFrame', False, 'Whether use constant moving first frame randomly.')
 Flags.DEFINE_integer('crop_size', 32, 'The crop size of the training image')
 # Training data settings
 Flags.DEFINE_string('input_video_dir', '', 'The directory of the video input data, for training')
